@@ -20,5 +20,5 @@ Profissional focado na arquitetura e desenvolvimento de soluções corporativas 
 ---
 
 ## Contato e Networking
-- **LinkedIn:** (https://www.linkedin.com/in/alvarobandim/)
+- **LinkedIn:** https://www.linkedin.com/in/alvarobandim/
 - **E-mail:** alvarobandim@hotmail.com
