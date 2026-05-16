@@ -14,6 +14,9 @@ Sou um desenvolvedor focado em construir soluções de backend que resolvem garg
   <img src="https://img.shields.io/badge/Telegram_API-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram API" />
   <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/FastAPI-005544?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/pytest-%230A9EDC.svg?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest" />
 </p>
 
 * **Engenharia de Dados (ETL):** Manipulação tabular (Pandas), higienização de dados, exportação (Openpyxl) e persistência relacional (SQLite).
@@ -24,14 +27,21 @@ Sou um desenvolvedor focado em construir soluções de backend que resolvem garg
 
 ## Projetos em Destaque (Portfólio Aplicado)
 
-### 1. Market Intelligence Pipeline (Web Scraper & Mensageria)
-Sistema autônomo de inteligência de mercado. Realiza varredura paginada em catálogos web, higieniza strings monetárias e aplica filtros de negócios. Os dados aprovados são persistidos em um banco de dados **SQLite** (com constraint de unicidade) que atua como gatilho para disparar **Push Notifications** em tempo real via Telegram.
+### 1. Enterprise Core Architecture (API, Testes & Containerization)
+Gabarito de arquitetura corporativa. Criação de um microserviço RESTful para fornecer dados tratados, blindado por uma suite de testes unitários automatizados com simulação de rede (Mocks) e totalmente empacotado dentro de um container isolado para rodar em qualquer servidor de produção.
+* **Tech:** Python, FastAPI, Pytest, Pytest-Mock, Docker, CLI Orchestrator.
 
-### 2. Helpdesk NOC Bot (Assistente de Suporte)
+### 2. Market Intelligence Pipeline (Web Scraper & Mensageria)
+Sistema autônomo de inteligência de mercado. Realiza varredura paginada em catálogos web, higieniza strings monetárias e aplica filtros de negócios. Os dados aprovados são persistidos em um banco de dados SQLite que atua como gatilho para disparar Push Notifications em tempo real via Telegram.
+* **Tech:** Python, BeautifulSoup, SQLite, Event-Driven Architecture.
+
+### 3. Helpdesk NOC Bot (Assistente de Suporte)
 Solução de backend para automação de atendimento (URA) e triagem de incidentes de TI corporativos. O bot gerencia estados de conversa (FSM), estrutura os payloads descritivos dos usuários e roteia alertas emergenciais diretamente para os canais da equipe de infraestrutura (NOC).
+* **Tech:** Python, Telegram Bot API, Polling Assíncrono.
 
-### 3. Automação de Back-office (Consolidação ETL e Reports)
+### 4. Automação de Back-office (Consolidação ETL e Reports)
 Agente de integração construído para substituir rotinas manuais de controladoria. O script realiza a ingestão de múltiplas planilhas de filiais, utiliza engine de dados para limpeza e sumarização de métricas, formatando os resultados em relatórios executivos que são despachados automaticamente via protocolo seguro SMTP.
+* **Tech:** Python, Pandas, smtplib (Network/Email).
 
 ---
 
